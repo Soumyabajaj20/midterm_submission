@@ -33,7 +33,6 @@ merged_midterm_data.csv
 then i made the plot of two insights which were news volume per day and the news distribution across sources.
 
 then i did the sentiment analysis of all the headlines and got it's output either as positive, negative or neutral through finbert
----
 ```
 news_with_sentiment.csv
 ```
