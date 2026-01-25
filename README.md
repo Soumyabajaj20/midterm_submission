@@ -31,3 +31,17 @@ then i merged the data with the stock listing and find out whether the nws day w
 merged_midterm_data.csv
 ```
 then i made the plot of two insights which were news volume per day and the news distribution across sources.
+
+then i did the sentiment analysis of all the headlines and got it's output either as positive, negative or neutral through finbert
+---
+```
+news_with_sentiment.csv
+```
+then i edited this csv to get the new coloumn as target to as it is today's closing price - yesterday's closing price
+```
+news_with_sentiment_final.csv
+```
+then i trained the model of linear regression and random forest to get the output as predicted value of y and then for results i compared the models final value to target value to determine accuracy
+```
+model_performance_stats.csv
+```
